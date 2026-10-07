@@ -13,7 +13,7 @@ body {
     padding: 0;
     background: #3f8938;
     font-family: "Noto Serif", Arial, Helvetica, sans-serif;
-    min-width: 526px;
+    /* min-width: 526px; */
 }
 
 * {
@@ -146,6 +146,8 @@ article {
     background: white;
     animation-name: fade-in;
     animation-duration: 2s;
+    min-width: 0;
+    overflow-wrap: break-word;
 }
 
 @keyframes fade-in {
@@ -170,6 +172,7 @@ article {
     max-height: 300px;
     object-fit: cover;
     object-position: center;
+    max-width: 100%;
 }
 
 ::-webkit-scrollbar {
