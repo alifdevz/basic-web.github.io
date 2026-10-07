@@ -1,245 +1,246 @@
 @font-face {
-    font-family: "Gardening Font";
-    src: url(aAlleyGarden.ttf);
+  font-family: 'Gardening Font';
+  src: url(aAlleyGarden.ttf);
 }
 
 @font-face {
-    font-family: "Descriptor";
-    src: url(Cool\ Cat.ttf);
+  font-family: 'Descriptor';
+  src: url(Cool\ Cat.ttf);
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: #3f8938;
-    font-family: "Noto Serif", Arial, Helvetica, sans-serif;
-    /* min-width: 526px; */
+  margin: 0;
+  padding: 0;
+  background: #3f8938;
+  font-family: 'Noto Serif', Arial, Helvetica, sans-serif;
+  /* min-width: 526px; */
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header {
-    margin-top: 10px;
-    margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-left: 6%;
+  margin-right: 4.5%;
 }
 
 nav li {
-    list-style-type: none;
-    display: inline;
-    margin-right: 20px;
-    color: white;
-    font-size: 26px;
-    font-weight: 400;
-    font-family: "Gardening Font", Verdana, Tahoma, sans-serif;
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'Gardening Font', Verdana, Tahoma, sans-serif;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 nav a:active {
-    box-shadow: 2px 2px 10px orange;
+  box-shadow: 2px 2px 10px orange;
 }
 
 nav a:hover {
-    color: orange;
+  color: orange;
 }
 
 .nav-selected {
-    color: orange;
+  color: orange;
 }
 
 nav {
-    margin-top: 0;
-    display: inline-block;
-    width: 50%;
+  margin-top: 0;
+  display: inline-block;
+  width: 50%;
 }
 
 header > div {
-    float: right;
-    width: 50%;
-    margin-top: 30px;
-    text-align: end;
+  float: right;
+  width: 50%;
+  margin-top: 30px;
+  text-align: end;
 }
 
 .title-wrapper {
-    text-align: center;
-    display: inline;
-    float: right;
-    margin-right: 50px;
+  text-align: center;
+  display: inline;
+  float: right;
+  margin-right: 50px;
 }
 
 #website-title {
-    font-family: "Gardening Font", Verdana, Tahoma, sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-    color: white;
-    padding: 0;
-    margin: 0;
-    line-height: 50%;
+  font-family: 'Gardening Font', Verdana, Tahoma, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  padding: 0;
+  margin: 0;
+  line-height: 50%;
 }
 
 #small-website-description {
-    font-size: 16px;
-    font-family: Descriptor;
-    color: orange;
+  font-size: 16px;
+  font-family: Descriptor;
+  color: orange;
 }
 
 main {
-    max-width: 88%;
-    background: transparent;
-    margin: 0 auto;
-    overflow: auto;
-    border-radius: 10px;
+  max-width: 88%;
+  background: transparent;
+  margin: 0 auto;
+  overflow: auto;
+  border-radius: 10px;
 }
 
 ul {
-    /* margin: 16px 0 10px 0;
-    padding: 0; */
-    padding: 0;
+  margin: 16px 0 10px 0px;
+  padding: 0;
 }
 
 .content {
-    width: 66%;
-    height: 100%;
-    background: transparent;
-    float: left;
+  width: 66%;
+  height: 100%;
+  background: transparent;
+  float: left;
 }
 
 aside {
-    width: 32%;
-    height: 100%;
-    background: white;
-    float: right;
-    padding: 0 20px 25px 20px;
+  width: 32%;
+  height: 100%;
+  background: white;
+  float: right;
+  padding: 0 20px 25px 20px;
 }
 
 aside > header {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 aside img {
-    width: 100%;
+  width: 100%;
 }
 
 aside section {
-    padding: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
 }
 
 aside > section > h3 {
-    text-align: center;
+  text-align: center;
 }
 
 aside table {
-    padding: 0 auto;
-    margin: 0 auto;
-    text-align: left;
+  padding: 0 auto;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 
 article {
-    width: 100%;
-    height: 100%;
-    padding: 25px;
-    background: white;
-    animation-name: fade-in;
-    animation-duration: 2s;
-    min-width: 0;
-    overflow-wrap: break-word;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  background: white;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 @keyframes fade-in {
-    from {
-        opacity: 0;
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 .wrapper {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    background: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: transparent;
 }
 
 .featured-image {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    object-position: center;
-    max-width: 100%;
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  max-width: 100%;
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 footer > p {
-    margin-top: 30px;
-    margin-bottom: 0;
-    padding: 25px;
-    color: white;
-    background-color: #e6dd3b;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: 1px 1px 3px #302f2f;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 25px;
+  color: white;
+  background-color: #e6dd3b;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #302f2f;
 }
 
 @media screen and (max-width: 1045px) {
-    body > header {
-        margin-bottom: 15px;
-        display: inline;
-    }
+  body > header {
+    margin-bottom: 15px;
+    display: inline;
+  }
 
-    nav {
-        width: 100%;
-        text-align: center;
-        position: sticky;
-        top: 0;
-        background: #3f8938;
-    }
+  nav {
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background: #3f8938;
+  }
 
-    body > header > div {
-        width: 100%;
-        float: none;
-        text-align: center;
-    }
+  body > header > div {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
 
-    .static {
-        position: static;
-    }
+  .static {
+    position: static;
+  }
 
-    .title-wrapper {
-        float: none;
-        text-align: center;
-        margin-right: 0;
-    }
+  .title-wrapper {
+    float: none;
+    text-align: center;
+    margin-right: 0;
+  }
 
-    .content {
-        width: 100%;
-        margin-bottom: 30px;
-        float: none;
-    }
+  .content {
+    width: 100%;
+    margin-bottom: 30px;
+    float: none;
+  }
 
-    aside {
-        width: 100%;
-        float: none;
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
+  aside {
+    width: 100%;
+    float: none;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
 
-    aside img {
-        width: 70%;
-    }
+  aside img {
+    width: 70%;
+  }
 }
