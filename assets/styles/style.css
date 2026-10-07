@@ -96,6 +96,12 @@ main {
     border-radius: 10px;
 }
 
+ul {
+    /* margin: 16px 0 10px 0;
+    padding: 0; */
+    padding: 0;
+}
+
 .content {
     width: 66%;
     height: 100%;
